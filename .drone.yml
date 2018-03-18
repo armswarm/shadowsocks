@@ -11,7 +11,7 @@ pipeline:
     repo: quay.io/armswarm/shadowsocks
     build_args:
       - SHADOWSOCKS_PACKAGE=2.5.5-r2
-    tag: [ "2.5.5", "2.5", "2" ]
+    tag: [ "2.5.5", "2.5", "2", "latest" ]
     when:
       branch: master
       event: push
