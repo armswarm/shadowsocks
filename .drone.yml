@@ -10,8 +10,8 @@ pipeline:
     secrets: [ docker_registry, docker_username, docker_password ]
     repo: quay.io/armswarm/shadowsocks
     build_args:
-      - SHADOWSOCKS_PACKAGE=2.5.5-r2
-    tag: [ "2.5.5", "2.5", "2", "latest" ]
+      - SHADOWSOCKS_VERSION=3.2.3
+    tag: [ "3.2.3", "3.2", "3", "latest" ]
     when:
       branch: master
       event: push
